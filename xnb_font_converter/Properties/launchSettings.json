@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "xnb_font_converter": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Temp\\Font_v5.xnb C:\\Temp\\Font_v6.xnb"
+    }
+  }
+}
