@@ -133,7 +133,7 @@ namespace xnb_font_converter
 
 
             // ファイル情報部分を読み進める
-            long address_fileinfo_num = Convert.ToInt64("0x0A", 16); // i18n.lua内のテキストサイズを表す数値の先頭位置
+            long address_fileinfo_num = Convert.ToInt64("0x0A", 16); // ファイル情報の個数情報位置（間違ってる可能性あり）
             int fileinfo_num_byte = CountByte(bs, (int)address_fileinfo_num);
             int fileinfo_num = Byte2Int(bs, (int)address_fileinfo_num);
 
