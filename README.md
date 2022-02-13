@@ -1,6 +1,6 @@
 # XNB Font Converter
 
-A tool to convert fonts for Hades and Pyre. Converts version 5 xnb font files to version 6.
+A tool to convert fonts for Hades and Pyre.
 
 
 ## Usage
